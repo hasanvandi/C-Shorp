@@ -1,5 +1,5 @@
 ﻿PcGuess pc = new();
-var rand = pc.randomPc(1, 10);
+var rand = pc.randomPc(1, 11);
 int numberGuess = 2;
 for (int i = 0; i < numberGuess; i++)
 {
