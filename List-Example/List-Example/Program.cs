@@ -13,4 +13,8 @@ while (sum < 1000);
 
 Console.WriteLine($"total count of items:{ints.Count}");
 
+foreach (int i in ints)
+{
+    Console.WriteLine(i);
+}
 Console.ReadLine();
